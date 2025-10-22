@@ -4,7 +4,7 @@ Sistema integral de gestión de flotas vehiculares y Data Warehouse diseñado es
 
 ## Características Principales
 
-### 🗄Arquitectura de Datos
+### Arquitectura de Datos
 - **Base de datos transaccional**: PostgreSQL con 506,650+ registros sintéticos
 - **Data Warehouse**: Snowflake con modelo estrella optimizado
 - **Pipeline ETL**: Automatizado en Python con validación multi-nivel
@@ -26,8 +26,13 @@ ProyectoM2_FacundoAcosta/
 │ └── 06_aws_setup/ # Arquitectura AWS + Lambda
 ├── Documentación/
 │ ├── FA_README.pdf
-│ ├── FA_Filettlogix_ER_Diagram.JPG
-│ └── [Documentación completa]
+│ ├── FA_Fleetlogix_ER_Diagram.JPG
+│ ├── FA_Análisis_del_modelo_proporcionado.pdf
+│ ├── FA_Manual_Consultas_SQL.pdf
+│ ├── FA_Análisis_Snowflake_ETL.pdf
+│ ├── FA_aws_architecture_diagram.png
+│ └── FA_AMS_Análisis_Arquitectura.pdf
+└── README.md
 
 
 ## Tecnologías Implementadas

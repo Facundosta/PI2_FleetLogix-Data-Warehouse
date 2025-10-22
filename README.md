@@ -17,6 +17,7 @@ Sistema integral de gestión de flotas vehiculares y Data Warehouse diseñado es
 - **32.9% entregas a tiempo** - análisis de eficiencia operativa
 
 ## Estructura del Proyecto
+'''
 ProyectoM2_FacundoAcosta/
 ├── Scripts/
 │ ├── 01_data_generation/ # Generación de 500k+ registros
@@ -33,6 +34,7 @@ ProyectoM2_FacundoAcosta/
 │ ├── FA_aws_architecture_diagram.png
 │ └── FA_AMS_Análisis_Arquitectura.pdf
 └── README.md
+'''
 
 
 ## Tecnologías Implementadas

@@ -1,0 +1,74 @@
+# =====================================================================================
+# DEPENDENCIAS DEL PROYECTO FLEETLOGIX DATA WAREHOUSE
+# Autor: Facundo Acosta
+# Versión: 2.1 (Genérica)
+# Descripción: Librerías necesarias para el pipeline ETL y análisis de datos
+# =====================================================================================
+
+# ------------------------------
+# Librerías de manipulación de datos
+# ------------------------------
+pandas>=1.5.0,<3.0.0
+numpy>=1.21.0,<2.0.0
+
+# ------------------------------
+# Conexión a bases de datos
+# ------------------------------
+# PostgreSQL
+psycopg2-binary>=2.9.0,<3.0.0
+
+# Snowflake
+snowflake-connector-python>=3.0.0,<4.0.0
+snowflake-sqlalchemy>=1.4.0,<2.0.0
+
+# ORM y queries
+sqlalchemy>=2.0.0,<3.0.0
+
+# ------------------------------
+# Procesamiento de archivos
+# ------------------------------
+pyarrow>=10.0.0,<15.0.0
+fastparquet>=2023.1.0,<2024.0.0
+
+# ------------------------------
+# Configuración y utilidades
+# ------------------------------
+python-dotenv>=0.19.0,<2.0.0
+configparser>=5.3.0,<7.0.0
+
+# ------------------------------
+# Generación de datos sintéticos (opcional, para desarrollo)
+# ------------------------------
+faker>=18.0.0,<22.0.0
+
+# ------------------------------
+# Logging y monitoreo
+# ------------------------------
+colorlog>=6.0.0,<7.0.0
+
+# ------------------------------
+# Utilidades adicionales
+# ------------------------------
+python-dateutil>=2.8.0,<3.0.0
+pytz>=2022.0,<2024.0
+
+# =====================================================================================
+# INSTALACIÓN
+# =====================================================================================
+# Para instalar todas las dependencias, ejecute:
+#   pip install -r requirements.txt
+#
+# Para instalar en un entorno virtual (recomendado):
+#   python -m venv venv
+#   source venv/bin/activate  # En Linux/Mac
+#   venv\Scripts\activate     # En Windows
+#   pip install -r requirements.txt
+#
+# Para actualizar todas las librerías:
+#   pip install --upgrade -r requirements.txt
+# =====================================================================================
+
+# NOTAS DE COMPATIBILIDAD
+# - Python 3.8 o superior requerido
+# - Las versiones especificadas son rangos compatibles con Python 3.8-3.11+
+# - psycopg2-binary es preferible a psycopg2 para evitar dependencias de compilación

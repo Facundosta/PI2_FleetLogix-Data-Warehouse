@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Bases de datos
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
